@@ -10,6 +10,7 @@
 
 .header {
     padding: 24px;
+    border-bottom: 1px solid #dee2e6;
 }
 
 .logo {
@@ -60,6 +61,7 @@ margin-right: 24px;
 
 .footer {
     padding: 24px 0;
+    border-top: 1px solid #dee2e6;
 }
 
 .footer_copyright {
@@ -106,7 +108,8 @@ margin-right: 24px;
     padding: 24px;
 }
 
-.card_price {
+.card_block {
+    text-align: center;
 
 }
 
@@ -121,6 +124,7 @@ margin-right: 24px;
     font-size: 29px;
     color: #6c757d;
     text-align: center;
+    vertical-align: text-top;
 }
 
 .card_description {
@@ -141,4 +145,23 @@ margin-right: 24px;
 .card_button {
     display: block;
     width: 100%;
+}
+
+.card {
+    border: 2px solid blue;
+    border-radius: 0;
+}
+
+.card:hover {
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    box-shadow: 5px 10px 10px 1px rgba(116, 169, 255, 0.254);
+}
+
+.btn:hover {
+    box-shadow: 5px 10px 10px 1px rgba(116, 169, 255, 0.254); 
+}
+
+.plans_card:nth-child(2) > .card{
+    background: red;
 }
