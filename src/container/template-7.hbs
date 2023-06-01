@@ -1,0 +1,29 @@
+<section class="hero">
+    {{#with hero}}
+    <h1 class="hero_title"> {{title}}</h1>
+
+    <p class="hero_description"> {{description}}</p>
+    <a href="{{button.url}}" class="hero_button"> {{button.text}}</a>
+    {{/with}}
+</section>
+
+
+<section class="about">
+    {{#with about}}
+    <h2 class="heading"> {{heading}}</h2>
+    <p class="info"> {{info}}</p>
+    {{/with}}
+</section>
+
+<main class="articles">
+
+    <div class="art_box">
+        <h3 class="art_title">Our articles</h3>
+        <a class="art_button" href="#">View All</a>
+    </div>
+
+    <div class="articles_box">
+        {{>articleCardDark}}
+    </div>
+
+</main>
