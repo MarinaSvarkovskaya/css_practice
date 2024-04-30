@@ -38,7 +38,7 @@
     color: blue;
 }
 
-.nav_vertical > nav.link {
+.nav_vertical > .nav_link {
  display: block;
 }
 
@@ -162,6 +162,6 @@ margin-right: 24px;
     box-shadow: 5px 10px 10px 1px rgba(116, 169, 255, 0.254); 
 }
 
-.plans_card:nth-child(2) > .card{
+/* .plans_card:nth-child(2) > .card{
     background: red;
-}
+} */

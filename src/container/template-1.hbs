@@ -1,5 +1,6 @@
 <div class="page">
     <div class="page_content">
+
         <div class="page_block">
             <header class="header row g-0">
                 <div class="col-3">
@@ -12,7 +13,6 @@
                     </div>
                 </nav>
             </header>
-
         </div>
 
         <div class="page_block">
@@ -22,7 +22,7 @@
         <div class="page_block">
             <main class="row g-0 plans">
                 {{#each plans}}
-                <div class=" col plans_card">
+                <div class="col plans_card">
                     {{>card data=this}}
                 </div>
                 {{/each}}
@@ -38,9 +38,10 @@
 
                 {{#each footer}}
                 <div class="col-3">
-                    <span class="footer_title"> {{title}} </span>
-                    {{>nav list=links isVertical=true}}
-
+                    <div>
+                        <span class="footer_title"> {{title}} </span>
+                        {{>nav list=links isVertical=true}}
+                    </div>
                 </div>
                 {{/each}}
             </footer>
