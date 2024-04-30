@@ -26,6 +26,7 @@
 
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .page_content {
@@ -144,15 +145,13 @@
     line-height: 170%;
 }
 
-
-
 .featured {
     display: flex;
     gap: var(--space-b);
 
     padding: var(--space-b);
-    border-bottom: 1px solid var(--color-border);
-}
+    border-bottom: 1px solid var(--color-border);}
+
 
 .card {
     display: flex;
@@ -231,11 +230,11 @@
     display: inline-block;
     font-size: 20;
     text-decoration: none;
-    padding: var(--space-sm) 159px;
+    padding: var(--space-sm);
     border-radius: 4.8px;
     background-color: var(--color-white);
-    width: 100%;
-    max-width: 160px;
+    width: 240px;
+    height: 52px;
     color: var(--color-title);
     text-align: center;  
 }
