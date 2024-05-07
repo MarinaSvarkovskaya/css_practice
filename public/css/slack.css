@@ -339,3 +339,33 @@ body {
         }
     }
 }
+.block {
+    display: flex;
+    gap: 40px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    gap: var(--space-l);
+    width: 285px;
+    height: 208px;
+}
+
+/* .card_imag {
+    width: 285px;
+    height: 208px;
+} */
+
+.card_text {
+    font-size: 32px;
+    font-weight: var(--weight_title);
+    color: var(--color-title)
+}
+
+.card_title{
+    font-size: var(--size-m);
+    font-weight: var(--weight_text);
+    color: var(--color-text);
+}
